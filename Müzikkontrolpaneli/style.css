@@ -12,6 +12,7 @@ body {
     font-size: 14px;
 }
 
+  
 .music-player {
     --primary-color: #ddd;
     --secondary-color: #999;
@@ -92,6 +93,10 @@ i:hover{
     color: var(--secondary-color);
 }
 .control-buttons{
+    border:none;
+    background-color: transparent;
+    color: white;
+    
     display: flex;
     align-items: center;
     gap: 2em;
@@ -158,4 +163,4 @@ i:hover{
 }
 .volume-bar .progress-bar:hover .progress::after{
     --size: .8em;
-}
+}         
